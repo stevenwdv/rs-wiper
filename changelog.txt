@@ -1,0 +1,27 @@
+---------------------------------------------------------------------------------------------------
+Version: 1.0.3
+Date: 2022-05-29
+  Changes:
+    - Made item text not red
+
+---------------------------------------------------------------------------------------------------
+Version: 1.0.2
+Date: 2022-05-28
+  Features:
+    - Remove items from inserter hand
+
+---------------------------------------------------------------------------------------------------
+Version: 1.0.1
+Date: 2022-05-28
+  Graphics:
+    - Added thumbnail
+
+---------------------------------------------------------------------------------------------------
+Version: 1.0.0
+Date: 2022-05-28
+  Features:
+    - Select an area to remove items and fluids from belts and machines without destroying the machines or spilling the items. You do not get back the items. Configurable to not wipe items from belts/machines/roboports/robots/vehicles/containers or not wipe ammo or fluids. By default only admins can use the mod.
+  Info:
+    - Initial release
+  Locale:
+    - English

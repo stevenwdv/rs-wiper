@@ -1,0 +1,8 @@
+{
+	"name": "rs-wiper",
+	"version": "1.0.3",
+	"title": "Item/fluid Wiper",
+	"author": "repne-scasb",
+	"factorio_version": "1.1",
+	"description": "Permanently delete items and/or fluids in machines, transport belts, etc. in an area that you select"
+}
