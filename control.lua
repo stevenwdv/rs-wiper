@@ -15,7 +15,7 @@ local function handle_select_event(event)
 	end
 
 	local is_alt = event.name == defines.events.on_player_alt_selected_area
-	if not is_alt then
+	if not is_alt and player.mod_settings["rsw-require-alt"].value then
 		player.print { "rsw-message.ask-confirmation" }
 		return
 	end

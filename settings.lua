@@ -8,6 +8,13 @@ data:extend {
 
 	{
 		type = "bool-setting",
+		name = "rsw-require-alt",
+		setting_type = "runtime-per-user",
+		default_value = true,
+	},
+
+	{
+		type = "bool-setting",
 		name = "rsw-clear-belts",
 		setting_type = "runtime-per-user",
 		default_value = true,
