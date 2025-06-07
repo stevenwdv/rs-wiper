@@ -1,4 +1,16 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.1.0
+Date: 2025-06-07
+  Changes:
+    - Factorio 2.0 support
+  Features:
+    - Ability to clean items off the ground (enabled by default)
+    - Add support for Factorio 2.0 entities
+  Bugfixes:
+    - Fix options to not wipe ammo & robots
+    - Fix don't clear vehicles option for spidertron
+
+---------------------------------------------------------------------------------------------------
 Version: 1.0.4
 Date: 2022-06-02
   Minor Features:
