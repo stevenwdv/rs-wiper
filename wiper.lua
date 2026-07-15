@@ -94,7 +94,7 @@ local function wipe_area(entities, options)
 		table.insert(inventories["spider-vehicle"], defines.inventory.spider_ammo)
 	end
 
-	for _, ent in pairs(entities) do
+	for _, ent in ipairs(entities) do
 		if is_belt[ent.type] then
 			if options.clear_belts then
 				ent.clear_items_inside()
@@ -118,7 +118,7 @@ local function wipe_area(entities, options)
 						end
 						clear_inventory(ent.get_fuel_inventory())
 						clear_inventory(ent.get_burnt_result_inventory())
-						for _, inventory in pairs(inventories[ent.type] or {}) do
+						for _, inventory in ipairs(inventories[ent.type] or {}) do
 							clear_inventory(ent.get_inventory(inventory))
 						end
 					end

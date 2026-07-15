@@ -54,7 +54,7 @@ local select_filters = {
 	"item-entity",
 }
 
----@type data.SelectionToolPrototype
+---@type SelectionToolPrototype
 local selection_tool = {
 	type = "selection-tool",
 	name = "rsw-select",
@@ -85,7 +85,7 @@ local selection_tool = {
 	small_icon_size = 64,
 }
 
----@type data.ShortcutPrototype
+---@type ShortcutPrototype
 local shortcut = {
 	type = "shortcut",
 	name = "rsw-select",
@@ -101,7 +101,7 @@ local shortcut = {
 	small_icon_size = 64,
 }
 
----@type data.CustomInputPrototype
+---@type CustomInputPrototype
 local custom_input = {
 	type = "custom-input",
 	name = "rsw-select",
